@@ -4,7 +4,7 @@ import time
 from datetime import datetime
 
 BOT_TOKEN = "8891305577:AAFevJRwNaaUKpMm_Hp0TZAYbdg06NYZ_ZM"
-CHAT_ID = "5985565344"
+CHAT_ID = 5985565344
 
 def get_random_fact():
     try:
