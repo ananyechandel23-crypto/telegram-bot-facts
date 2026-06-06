@@ -51,7 +51,7 @@ def run_scheduler():
         schedule.run_pending()
         time.sleep(30)
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     print("🚀 Sending test fact now...")
     send_fact()
     run_scheduler()
